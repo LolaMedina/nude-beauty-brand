@@ -1,0 +1,13 @@
+.card{
+    max-width: 250px;
+}
+
+.cart-btn{
+    background-color: rgb(240, 203, 186);
+    margin: 0px !important;
+    outline: none;
+}
+
+.cart-btn:hover{
+    background-color: rgb(245, 176, 143);
+} 
