@@ -26,54 +26,55 @@
 
         <header>
             <div class="container">
-                <div class="row text-center">
-                    <div class="col-md-4"></div>
-                    <div class="col-4 pt-2">
+                <div class="row text-center  d-none d-md-block mx-auto">
+                    <div class="col-12 pt-2 mx-auto text-center">
                         <h1 class="font-weight-light">Nude</h1>
                     </div>
-                    <div class="col-4  pt-3"></div>
-
-                    <!-- NAVBAR -->
-                    <div class="col-4 mx-auto">
-                        <nav class="navbar navbar-expand-sm navbar-light text-center">
-                            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
-                                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
-                                aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="collapsibleNavId">
-                                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 pr-sm-2">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="/index.html">HOME <span
-                                                class="sr-only">(current)</span></a>
-                                    </li>
-
-                                    <li class="nav-item dropdown active">
-                                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId"
-                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SHOP</a>
-                                        <div class="dropdown-menu text-center" aria-labelledby="dropdownId">
-                                            <a class="dropdown-item" href="/src/shop-pages/main-shop.html">Eyes</a>
-                                            <a class="dropdown-item" href="/src/shop-pages/shop-lips.html">Lips</a>
-                                            <a class="dropdown-item" href="#">Face</a>
-                                        </div>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="/src/press.html">PRESS</a>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="/src/about.html">ABOUT</a>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">CONTACT</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
                 </div>
+            </div>
+
+            <nav class="navbar navbar-expand-sm navbar-light ">
+                <a class="navbar-brand d-sm-block d-md-none" href="#">
+                    <h1 class="font-weight-light">Nude</h1>
+                </a>
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                    data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav mx-auto mt-2 mt-lg-0 mx-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/index.html">HOME<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">SHOP</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="/src/shop-pages/main-shop.html">EYES</a>
+                                <a class="dropdown-item" href="/src/shop-pages/shop-lips.html">LIPS</a>
+                                <a class="dropdown-item" href="#">FACE</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/src/about.html">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/src/press.html">PRESS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <a class="nav-link text-decoration-none text-dark" href="#"><i class="fa fa-shopping-bag"
+                                aria-hidden="true"></i></a>
+                        <!-- <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+                    </form>
+                </div>
+            </nav>
+            </div>
         </header>
         <main>
             <div class="container  mt-5">
@@ -90,11 +91,11 @@
                                 <h6 class="card-title font-weight-lighter">Coral Lip Gloss</h6>
                                 <p class="card-text">$30.00</p>
                             </div>
-                         
+
                             <div class=" d-flex justify-content-between bg-white border border-dark mb-3">
                                 <button class="border-0 btn minus-btn"><i class="fa fa-minus text-muted"
                                         aria-hidden="true"></i></button>
-                                <input type="text"  value="1" class="text-center border-0 w-50"></input>
+                                <input type="text" value="1" class="text-center border-0 w-50"></input>
                                 <button class="border-0 btn text-center plus-btn">
                                     <i class="fa fa-plus text-dark" aria-hidden="true"></i></button>
                             </div>
@@ -121,89 +122,89 @@
                         </div>
                     </div>
 
-                    
-                        <div class="col-md-4">
-                            <div class="card border-0 mb-5 mx-auto">
-                                <img class="card-img-top" src="/img/lipstic1.webp" alt="..." class="img-fluid">
-                                <div class="card-body">
-                                    <h6 class="card-title font-weight-lighter">Coral Lip Gloss</h6>
-                                    <p class="card-text">$30.00</p>
-                                </div>
-                                <div class=" d-flex justify-content-between bg-white border border-dark mb-3">
-                                    <button class="border-0 btn minus-btn"><i class="fa fa-minus text-muted"
-                                            aria-hidden="true"></i></button>
-                                    <input type="text"  value="1" class="text-center border-0 w-50"></input>
-                                    <button class="border-0 btn text-center plus-btn">
-                                        <i class="fa fa-plus text-dark" aria-hidden="true"></i></button>
-                                </div>
-                                <button class="btn cart-btn text-white rounded-0 text-center">ADD TO CART</button>
 
+                    <div class="col-md-4">
+                        <div class="card border-0 mb-5 mx-auto">
+                            <img class="card-img-top" src="/img/lipstic1.webp" alt="..." class="img-fluid">
+                            <div class="card-body">
+                                <h6 class="card-title font-weight-lighter">Coral Lip Gloss</h6>
+                                <p class="card-text">$30.00</p>
                             </div>
+                            <div class=" d-flex justify-content-between bg-white border border-dark mb-3">
+                                <button class="border-0 btn minus-btn"><i class="fa fa-minus text-muted"
+                                        aria-hidden="true"></i></button>
+                                <input type="text" value="1" class="text-center border-0 w-50"></input>
+                                <button class="border-0 btn text-center plus-btn">
+                                    <i class="fa fa-plus text-dark" aria-hidden="true"></i></button>
+                            </div>
+                            <button class="btn cart-btn text-white rounded-0 text-center">ADD TO CART</button>
+
                         </div>
-                    
+                    </div>
 
-                    
-                        <div class="col-md-4">
-                            <div class="card border-0 mb-5 mx-auto">
-                                <img class="card-img-top" src="/img/lipstic1.webp" alt="..." class="img-fluid">
-                                <div class="card-body">
-                                    <h6 class="card-title font-weight-lighter">Coral Lip Gloss</h6>
-                                    <p class="card-text">$30.00</p>
-                                </div>
-                                <div class=" d-flex justify-content-between bg-white border border-dark mb-3">
-                                    <button class="border-0 btn minus-btn"><i class="fa fa-minus text-muted"
-                                            aria-hidden="true"></i></button>
-                                    <input type="text"  value="1" class="text-center border-0 w-50"></input>
-                                    <button class="border-0 btn text-center plus-btn">
-                                        <i class="fa fa-plus text-dark" aria-hidden="true"></i></button>
-                                </div>
-                                <button class="btn cart-btn text-white rounded-0 text-center">ADD TO CART</button>
 
+
+                    <div class="col-md-4">
+                        <div class="card border-0 mb-5 mx-auto">
+                            <img class="card-img-top" src="/img/lipstic1.webp" alt="..." class="img-fluid">
+                            <div class="card-body">
+                                <h6 class="card-title font-weight-lighter">Coral Lip Gloss</h6>
+                                <p class="card-text">$30.00</p>
                             </div>
+                            <div class=" d-flex justify-content-between bg-white border border-dark mb-3">
+                                <button class="border-0 btn minus-btn"><i class="fa fa-minus text-muted"
+                                        aria-hidden="true"></i></button>
+                                <input type="text" value="1" class="text-center border-0 w-50"></input>
+                                <button class="border-0 btn text-center plus-btn">
+                                    <i class="fa fa-plus text-dark" aria-hidden="true"></i></button>
+                            </div>
+                            <button class="btn cart-btn text-white rounded-0 text-center">ADD TO CART</button>
+
                         </div>
-    
+                    </div>
 
-                    
-                        <div class="col-md-4">
-                            <div class="card border-0 mb-5 mx-auto">
-                                <img class="card-img-top" src="/img/lipstic1.webp" alt="..." class="img-fluid">
-                                <div class="card-body">
-                                    <h6 class="card-title font-weight-lighter">Coral Lip Gloss</h6>
-                                    <p class="card-text">$30.00</p>
-                                </div>
-                                <div class=" d-flex justify-content-between bg-white border border-dark mb-3">
-                                    <button class="border-0 btn minus-btn"><i class="fa fa-minus text-muted"
-                                            aria-hidden="true"></i></button>
-                                    <input type="text"  value="1" class="text-center border-0 w-50"></input>
-                                    <button class="border-0 btn text-center plus-btn">
-                                        <i class="fa fa-plus text-dark" aria-hidden="true"></i></button>
-                                </div>
-                                <button class="btn cart-btn text-white rounded-0 text-center">ADD TO CART</button>
 
+
+                    <div class="col-md-4">
+                        <div class="card border-0 mb-5 mx-auto">
+                            <img class="card-img-top" src="/img/lipstic1.webp" alt="..." class="img-fluid">
+                            <div class="card-body">
+                                <h6 class="card-title font-weight-lighter">Coral Lip Gloss</h6>
+                                <p class="card-text">$30.00</p>
                             </div>
+                            <div class=" d-flex justify-content-between bg-white border border-dark mb-3">
+                                <button class="border-0 btn minus-btn"><i class="fa fa-minus text-muted"
+                                        aria-hidden="true"></i></button>
+                                <input type="text" value="1" class="text-center border-0 w-50"></input>
+                                <button class="border-0 btn text-center plus-btn">
+                                    <i class="fa fa-plus text-dark" aria-hidden="true"></i></button>
+                            </div>
+                            <button class="btn cart-btn text-white rounded-0 text-center">ADD TO CART</button>
+
                         </div>
+                    </div>
 
-        
-                        <div class="col-md-4">
-                            <div class="card border-0 mb-5 mx-auto">
-                                <img class="card-img-top" src="/img/lipstic1.webp" alt="..." class="img-fluid">
-                                <div class="card-body">
-                                    <h6 class="card-title font-weight-lighter">Coral Lip Stain</h6>
-                                    <p class="card-text">$30.00</p>
-                                </div>
-                                <div class=" d-flex justify-content-between bg-white border border-dark mb-3">
-                                    <button class="border-0 btn minus-btn"><i class="fa fa-minus text-muted"
-                                            aria-hidden="true"></i></button>
-                                    <input type="text" value="1" class="text-center border-0 w-50"></input>
-                                    <button class="border-0 btn text-center plus-btn">
-                                        <i class="fa fa-plus text-dark" aria-hidden="true"></i></button>
-                                </div>
-                                <button class="btn cart-btn text-white rounded-0 text-center">ADD TO CART</button>
 
+                    <div class="col-md-4">
+                        <div class="card border-0 mb-5 mx-auto">
+                            <img class="card-img-top" src="/img/lipstic1.webp" alt="..." class="img-fluid">
+                            <div class="card-body">
+                                <h6 class="card-title font-weight-lighter">Coral Lip Stain</h6>
+                                <p class="card-text">$30.00</p>
                             </div>
+                            <div class=" d-flex justify-content-between bg-white border border-dark mb-3">
+                                <button class="border-0 btn minus-btn"><i class="fa fa-minus text-muted"
+                                        aria-hidden="true"></i></button>
+                                <input type="text" value="1" class="text-center border-0 w-50"></input>
+                                <button class="border-0 btn text-center plus-btn">
+                                    <i class="fa fa-plus text-dark" aria-hidden="true"></i></button>
+                            </div>
+                            <button class="btn cart-btn text-white rounded-0 text-center">ADD TO CART</button>
+
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </main>
 
