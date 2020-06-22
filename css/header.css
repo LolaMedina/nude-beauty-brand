@@ -4,8 +4,25 @@
 
 .header{
     background-color: rgb(245, 231, 223);
+   
+
+}
+
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(211, 133, 88) !important ;
 }
 
 .header h1{
     font-size: 1.2rem;
+}
+
+  
+hr{
+    border: 0.5px solid black;
 }
