@@ -56,10 +56,7 @@ body{
     transform-style: preserve-3d;
     transition: all 0.7s ease;
   }
-  
-  hr{
-      border: 0.5px solid black;
-  }
+ 
   .card-flip div {
     backface-visibility: hidden;
     transform-style: preserve-3d;
