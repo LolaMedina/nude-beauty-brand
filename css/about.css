@@ -3,5 +3,10 @@
 }
 
 .about-section p{
-    line-height: 30px;
+    line-height: 40px;
 }
+
+.active-link{
+   color: rgb(220, 144, 108) !important;
+}
+
