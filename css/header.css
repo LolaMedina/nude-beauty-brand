@@ -21,6 +21,9 @@ a:hover{
 .header h1{
     font-size: 1.2rem;
 }
+.active-link{
+  color:  rgb(220, 144, 108) !important;
+}
 
   
 hr{

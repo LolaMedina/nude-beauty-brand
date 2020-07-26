@@ -4,78 +4,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nude</title>
+    <title>Nude Beauty | About</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/header.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
 <body>
-    <main>
-        <section class="header">
-            <div class="container-fluid">
-                <h6 class="font-weight-lighter text-center px-3 py-3">Free Shipping Over ‎$70 + 3 Free Samples With
-                    Every Order</h6>
-            </div>
-        </section>
+    <section class="header">
+        <div class="container-fluid">
+            <h6 class="font-weight-lighter text-center py-3">Free Shipping Over ‎$70 + 3 Free Samples With
+                Every Order</h6>
+        </div>
+    </section>
+
+    <section class="main">
 
         <header>
             <div class="container">
-                <div class="row text-center">
-                    <div class="col-md-4"></div>
-                    <div class="col-4 pt-2">
-                        <h1 class="font-weight-light">Nude</h1>
-                    </div>
-                    <div class="col-4  pt-3"></div>
-
-                    <!-- NAVBAR -->
-                    <div class="col-4 mx-auto">
-                        <nav class="navbar navbar-expand-sm navbar-light text-center sticky-top">
-                            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
-                                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
-                                aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="collapsibleNavId">
-                                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 pr-sm-2">
-                                    <li class="nav-item active">
-                                        <a class="nav-link" href="/index.html">HOME <span
-                                                class="sr-only">(current)</span></a>
-                                    </li>
-
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId"
-                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SHOP</a>
-                                        <div class="dropdown-menu text-center" aria-labelledby="dropdownId">
-                                            <a class="dropdown-item" href="#">Action 1</a>
-                                            <a class="dropdown-item" href="#">Action 2</a>
-                                        </div>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">PRESS</a>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="/src/about.html">ABOUT</a>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">CONTACT</a>
-                                    </li>
-                                </ul>
+                <div class="row text-center  d-none d-md-block mx-auto">
+                            <div class="col-12 pt-2 mx-auto text-center">
+                                <h1 class="font-weight-light">Nude</h1>
                             </div>
-                        </nav>
+                        </div>
+            </div>
+
+            <div class="container">
+                <nav class="navbar navbar-expand-sm navbar-light">
+                    <a class="navbar-brand d-sm-block d-md-none" href="#">
+                        <h1 class="font-weight-light">Nude</h1>
+                    </a>
+                    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                        data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavId">
+                        <ul class="navbar-nav mx-auto mt-2 mt-lg-0 mx-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="/index.html">HOME<span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">SHOP</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                    <a class="dropdown-item" href="src/shop-pages/main-shop.html">EYES</a>
+                                    <a class="dropdown-item" href="/src/shop-pages/shop-lips.html">LIPS</a>
+                                    <a class="dropdown-item" href="#">FACE</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active-link" href="/src/about.html">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/src/press.html">PRESS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/src/shop-pages/contact-page.html">CONTACT</a>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <a class="nav-link text-decoration-none text-dark" href="#"><i
+                                    class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                            <!-- <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+                        </form>
                     </div>
-                </div>
+                </nav>
+            </div>
+
         </header>
+    </section>
 
         <main>
-            <section class="about-img">
+            <section class="about-img mt-5">
                 <div class="container">
                     <div class="row d-flex justify-space-around">
                         <div class="col-md-6">
@@ -105,7 +113,8 @@
                                 quaerat unde, ullam molestias. Corporis ea, maxime laudantium nulla temporibus iusto
                             </p>
 
-                            <p class="font-weight-lighter">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, ducimus architecto!
+                            <p class="font-weight-lighter my-5">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                elit. Quo, ducimus architecto!
                                 Dolorum debitis laboriosam veniam libero. Excepturi officia placeat cupiditate impedit
                                 vitae repudiandae, error dolores tempora provident assumenda voluptates eum,
                                 exercitationem, maxime animi perferendis omnis consectetur molestiae qui molestias culpa
@@ -120,10 +129,10 @@
             <section class="about-bottom">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6" data-aos="fade-up">
                             <img src="/img/crea.webp" alt="..." class="img-fluid">
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6" data-aos="fade-left">
                             <img src="/img/creams.jpg" alt="..." class="img-fluid h-100">
                         </div>
                     </div>
@@ -174,6 +183,13 @@
         </script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
             integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+        </script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <script>
+            AOS.init({
+                easing: '1500'
+            });
         </script>
 
 </body>
