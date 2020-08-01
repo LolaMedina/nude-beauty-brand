@@ -1,0 +1,15 @@
+*{
+    font-family: 'Hind', sans-serif;
+}
+
+.form-btn{
+    background-color: rgb(240, 203, 186) !important;
+    font-size: 18px ;
+}
+.form-btn :hover{
+    background-color: rgb(245, 176, 143) !important;
+}
+
+.active-link{
+    color: rgb(220, 144, 108)!important;
+}
