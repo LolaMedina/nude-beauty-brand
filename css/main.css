@@ -21,6 +21,9 @@ body{
     min-height: 50vh;
 }
 
+.insta-link{
+  color: black;
+}
 
 .div-4{
     background-image: url(/img/home-page.jpg);
